@@ -52,3 +52,38 @@ def __init__(ns, args):
 def func2(ns): # Global function and namespace required.
   Console.msg('You are calling func2.')
 ```
+
+# help
+You can use doc() to check the description.
+
+```
+# Inside:
+Console.msg(doc(Console))
+```
+
+# Tip of importing
+Do not import like this:
+
+```
+from http import browse
+
+def __init__(ns, args):
+  browse('https://google.com') # Otherwise it returns an Error that 2 arguments given.
+```
+
+Instead, use local or import module.
+
+Local:
+```
+def __init__(ns, args):
+  from http import browse
+  browse('https://google.com')
+```
+
+Import module:
+```
+import http
+
+def __init__(ns, args):
+  http.browse('https://google.com')
+```
