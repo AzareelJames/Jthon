@@ -34,3 +34,21 @@ def __init__(ns, args):
   Console.clear() # Use Console.clear to clear something.
   Console.note('Console cleared.') # Use Console.note to note something.
 ```
+
+# functions
+They're 2 types of functions: local function, & global function.
+A local function is a function that calls inside a function.
+A global function is a function that can be called using namespace (ns)
+Example:
+
+```
+def __init__(ns, args):
+  def func1(): # Local function.
+    Console.msg('You are calling func1.')
+
+  func1()
+  ns.func2() # Use namespace.
+
+def func2(ns): # Global function and namespace required.
+  Console.msg('You are calling func2.')
+```
