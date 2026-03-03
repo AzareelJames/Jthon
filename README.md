@@ -32,5 +32,5 @@ def __init__(ns, args):
   wait(5)
 
   Console.clear() # Use Console.clear to clear something.
-  Console.info('Console cleared.') # Use Console.clear to clear something.
+  Console.note('Console cleared.') # Use Console.note to note something.
 ```
