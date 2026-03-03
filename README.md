@@ -87,3 +87,14 @@ import http
 def __init__(ns, args):
   http.browse('https://google.com')
 ```
+
+# Tip of Syntax
+This syntax is almost similar to python.
+
+# List all of builtins:
+Use getbuilts() to list all of them.
+
+```
+# Inside:
+Console.msg(getbuilts())
+```
