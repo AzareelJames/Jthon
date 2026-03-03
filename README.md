@@ -27,7 +27,7 @@ def __init__(ns, args):
   elif not name:
     Console.warn('Name required') # Use Console.warn to warn something.
   else:
-    Console.msg(f'Hello {name}, the console is gonna clear in 5 seconds:')!
+    Console.msg(f'Hello {name}, the console is gonna clear in 5 seconds!')
 
   wait(5)
 
