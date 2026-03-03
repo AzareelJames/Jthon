@@ -98,3 +98,19 @@ Use getbuilts() to list all of them.
 # Inside:
 Console.msg(getbuilts())
 ```
+
+# JTP (Jthon Package)
+To install a package, use this command:
+(test is a test package)
+
+```
+Jthon JTP install test
+```
+
+To uninstall a package, use this command:
+
+```
+Jthon JTP uninstall test
+```
+
+Fun fact: you can use JTP object.
