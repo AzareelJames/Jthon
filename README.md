@@ -5,6 +5,7 @@ Jthon is a coding language made by me. It was powered from python.
 
 # Initialize
 Do to that: you need to start this:
+
   def __init__(ns, args): # ns for namespace
     # Your code starts here!
     Console.msg('Hello World!') # Hello world here!
